@@ -62,8 +62,8 @@ def fibonacci(num):
   # Check if input is 0 then it will
   # print incorrect input
 
-  if num < 0:
-    print("Incorrect input")
+  # if num < 0:
+    # print("Incorrect input")
  
   # Check if n is 0
   # then it will return 0
