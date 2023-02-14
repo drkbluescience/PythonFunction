@@ -67,7 +67,7 @@ def fibonacci(num):
  
   # Check if n is 0
   # then it will return 0
-  elif num == 0:
+  if num == 0:
     return 0
  
   # Check if n is 1,2
