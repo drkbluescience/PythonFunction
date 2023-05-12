@@ -1,4 +1,4 @@
-from functions import numbers
+from functions import numbers, fileOp
 
 def call_functions():
     _num = -1
@@ -12,5 +12,8 @@ def call_functions():
     print(numbers.perfect_number(_num), "\n")
 
 if __name__ == "__main__":
-    call_functions()
+    #call_functions()
+    file = 'trees.csv'
+    min_tree = fileOp.minHeightTree(file)
+    print(f"The length of the min. tree in the file is {min_tree}")
     
